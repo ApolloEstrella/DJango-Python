@@ -25,6 +25,6 @@ urlpatterns = [
     path('login/', views.login),
     path('base/', views.baseHtml),
     path('registration/', vw.index),
-    path('', views.login),
+    path('', views.home),
     path('aboutus/', views.aboutus)
 ]
